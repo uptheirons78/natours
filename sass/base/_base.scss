@@ -1,0 +1,19 @@
+/* Universal Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Root Font Size */
+html {
+  //this define the size of 1rem
+  font-size: 62.5%;
+}
+/* Universal Font Definition */
+body {
+  padding: 3rem;
+  box-sizing: border-box;
+}
