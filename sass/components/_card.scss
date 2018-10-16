@@ -5,7 +5,6 @@
   height: 52rem;
 
   &__side {
-    // color: #fff;
     font-size: 2rem;
     height: 52rem;
     transition: all 0.8s ease;
@@ -15,7 +14,7 @@
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
-    overflow: hidden;
+    // overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
     &--front {
