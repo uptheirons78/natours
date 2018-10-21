@@ -759,8 +759,8 @@ body {
   padding: 10rem 0;
   font-size: 1.4rem; }
   @media (max-width: 56.25em) {
-    .footer {
-      padding: 8rem 0; } }
+    .footer .row {
+      max-width: 55rem; } }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
@@ -774,7 +774,7 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem;
     display: inline-block; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 75em) {
       .footer__navigation {
         width: 100%;
         text-align: center; } }
@@ -801,7 +801,7 @@ body {
     width: 80%;
     float: right;
     text-align: justify; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 75em) {
       .footer__copyright {
         width: 100%;
         float: none; } }
