@@ -6,7 +6,7 @@
   "scripts": {
     "watch:sass": "node-sass --include-path sass sass/main.scss css/style.css -w",
     "server": "browser-sync start --server --files \"index.html, css/style.css\" ",
-    "start": "npm-run-all --parallel myserver watch:sass",
+    "start": "npm-run-all --parallel server watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.concat.css -o css/style.prefix.css",
